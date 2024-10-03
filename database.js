@@ -16,8 +16,8 @@ db.version(1).stores({
 db.JpnStocks.bulkPut([
     {id:'3382',name:'セブン＆アイ・ホールディングス',tosho:'小売業',nikkei:'小売業'},
     {id:'4063',name:'信越化学工業',tosho:'化学',nikkei:'化学'},
-    {id:'4502',name:'武田薬品工業'},
-    {id:'4503',name:'アステラス製薬'},
+    {id:'4502',name:'武田薬品工業',tosho:'医薬品',nikkei:'医薬品'},
+    {id:'4503',name:'アステラス製薬',tosho:'医薬品',nikkei:'医薬品'},
     {id:'4568',name:'第一三共'},
     {id:'6098',name:'リクルートホールディングス'},
     {id:'6273',name:'SMC'},
