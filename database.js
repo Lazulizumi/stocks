@@ -8,10 +8,6 @@ db.version(1).stores({
     JpnStocks:'id,name,market,tosho,nikkei'
 });
 
-db.version(1).stores({
-    notes:'id,name,tosho,nikkei'
-})
-
 //データ追加更新
 db.JpnStocks.bulkPut([
     {id:'3382',name:'セブン＆アイ・ホールディングス',market:'Prime',tosho:'小売業',nikkei:'小売業'},
